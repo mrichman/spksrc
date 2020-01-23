@@ -15,6 +15,7 @@ STARTABLE = no
 HOMEPAGE   = https://github.com/svend/cuetools
 LICENSE    = GPLv2
 
-SERVICE_SETUP = src/service-setup.sh
+INSTALLER_SCRIPT = src/installer.sh
+SSS_SCRIPT       = src/dsm-control.sh
 
 include ../../mk/spksrc.spk.mk
