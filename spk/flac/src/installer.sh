@@ -42,7 +42,7 @@ postuninst ()
     # Remove link
     rm -f ${INSTALL_DIR}
     rm -f /usr/local/bin/flac
-    rm -f /usr/local/bin/metafla
+    rm -f /usr/local/bin/metaflac
     rm -f /usr/lib/libFLAC.so
     rm -f /usr/lib/libFLAC.so.8
     rm -f /usr/lib/libFLAC.so.8.3.0
