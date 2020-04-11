@@ -23,7 +23,7 @@ postinst ()
     ln -s ${INSTALL_DIR}/bin/cuebreakpoints /usr/local/bin/cuebreakpoints
     ln -s ${INSTALL_DIR}/bin/cueconvert /usr/local/bin/cueconvert
     ln -s ${INSTALL_DIR}/bin/cueprint /usr/local/bin/cueprint
-    ln -s ${INSTALL_DIR}/bin/cuetag.sh /usr/local/bin/cuetag
+    ln -s ${INSTALL_DIR}/bin/cuetag /usr/local/bin/cuetag
 
 
     exit 0
