@@ -21,9 +21,9 @@ postinst ()
     # Put in the PATH
     mkdir -p /usr/local/bin
     ln -s ${INSTALL_DIR}/bin/file /usr/local/bin/file
-    ln -s ${INSTALL_DIR}/lib/libmagic.so.1.0.0 /usr/local/lib/libmagic.so.1.0.0
-    ln -s ${INSTALL_DIR}/lib/libmagic.so.1.0.0 /usr/local/lib/libmagic.so.1
-    ln -s ${INSTALL_DIR}/lib/libmagic.so.1.0.0 /usr/local/lib/libmagic.so
+    ln -s ${INSTALL_DIR}/lib/libmagic.so.1.0.0 /usr/lib/libmagic.so.1.0.0
+    ln -s ${INSTALL_DIR}/lib/libmagic.so.1.0.0 /usr/lib/libmagic.so.1
+    ln -s ${INSTALL_DIR}/lib/libmagic.so.1.0.0 /usr/lib/libmagic.so
     exit 0
 }
 
@@ -37,9 +37,9 @@ postuninst ()
     # Remove link
     rm -f ${INSTALL_DIR}
     rm -f /usr/local/bin/file
-    rm -f /usr/local/lib/libmagic.so.1.0.0
-    rm -f /usr/local/lib/libmagic.so.1
-    rm -f /usr/local/lib/libmagic.so
+    rm -f /usr/lib/libmagic.so.1.0.0
+    rm -f /usr/lib/libmagic.so.1
+    rm -f /usr/lib/libmagic.so
     exit 0
 }
 
