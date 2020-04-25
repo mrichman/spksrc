@@ -18,7 +18,7 @@ postinst ()
     # Link
     ln -s ${SYNOPKG_PKGDEST} ${INSTALL_DIR}
     
-    # Put cuetools in the PATH
+    # Put monkeysaudio in the PATH
     mkdir -p /usr/local/bin
     ln -s ${INSTALL_DIR}/bin/mac /usr/local/bin/mac
     exit 0
