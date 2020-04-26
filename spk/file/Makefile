@@ -1,5 +1,5 @@
 SPK_NAME = file
-PKG_VERS = 5.35
+SPK_VERS = 5.35
 SPK_REV = 1
 SPK_ICON = src/file.png
 
